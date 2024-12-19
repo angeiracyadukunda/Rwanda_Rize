@@ -54,7 +54,17 @@ const SuccessStoriesCarousel: React.FC = () => {
       image: "/education.jpg",
       title: "Women Empowerment Program",
       description: "Supported 300 women entrepreneurs in starting their own businesses, promoting economic independence and gender equality."
-    }
+      },
+      {
+        image: "/children.jpg",
+        title: "Sustainable Agriculture Project",
+        description: "Helped 200 farmers adopt sustainable practices, increasing crop yields by 40% and improving food security in rural communities."
+      },
+      {
+        image: "/education.jpg",
+        title: "Women Empowerment Program",
+        description: "Supported 300 women entrepreneurs in starting their own businesses, promoting economic independence and gender equality."
+      }
   ]
 
   useEffect(() => {

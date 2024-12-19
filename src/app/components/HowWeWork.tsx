@@ -35,7 +35,7 @@ const HowWeWork: React.FC = () => {
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-purple-800">How RwandaRize works</h2>
           <Link
-            href="/how-it-works"
+            href="/HowItWorks"
             className="inline-flex items-center px-4 py-2 rounded-full bg-white shadow-md hover:shadow-lg transition-shadow"
           >
             Learn more

@@ -18,11 +18,12 @@ const navItems = [
   },
   { name: 'Campaigns', href: '/campaigns' },
   { name: 'Success Stories', href: '/success-stories' },
-  { name: 'How It Works', href: '/how-it-works' },
+  { name: 'How It Works', href: '/HowItWorks' },
   { name: 'Contact Us', href: '/contact' },
 ]
 
 const languages = ['EN', 'FR', 'RW']
+
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -84,10 +85,10 @@ const Header: React.FC = () => {
             </select>
             <FaChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 text-purple-600 pointer-events-none" />
           </div>
-          <Link href="/sign-in" className="px-4 py-2 text-purple-600 border border-purple-600 rounded hover:bg-purple-600 hover:text-white transition duration-300">
+          <Link href="/signupPage" className="px-4 py-2 text-purple-600 border border-purple-600 rounded hover:bg-purple-600 hover:text-white transition duration-300">
             Sign In
           </Link>
-          <Link href="/start-campaign" className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 transition duration-300">
+          <Link href="/campagnpage" className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 transition duration-300">
             Start a Campaign
           </Link>
         </div>
@@ -146,7 +147,7 @@ const Header: React.FC = () => {
                 ))}
               </select>
               <Link
-                href="/sign-in"
+                href=""
                 className="block w-full px-4 py-2 text-center text-purple-600 border border-purple-600 rounded hover:bg-purple-600 hover:text-white transition duration-300"
                 onClick={() => setIsOpen(false)}
               >

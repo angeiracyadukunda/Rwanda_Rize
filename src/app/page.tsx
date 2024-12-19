@@ -12,6 +12,7 @@ import FeaturedTopics from './components/FeaturedTopics'
 import HowWeWork from './components/HowWeWork'
 
 
+
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -20,7 +21,7 @@ export default function LandingPage() {
       <FeaturesSection />
       <DiscoverFundraisers />
       <FeaturedTopics />
-      <HowWeWork/>
+      <HowWeWork />
       <SuccessStoriesCarousel />
       <CallToAction />
       <Footer />

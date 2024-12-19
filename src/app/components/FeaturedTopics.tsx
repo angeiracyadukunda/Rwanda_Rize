@@ -42,7 +42,7 @@ const topics: Topic[] = [
     id: '2',
     title: 'Support Young Tech Innovators',
     description: 'Help aspiring developers in Kigali access coding education and equipment.',
-    image: '/tech-education.jpg',
+    image: '/young innovators.jpg',
     badge: {
       text: 'Help now',
       variant: 'help'
@@ -56,7 +56,7 @@ const topics: Topic[] = [
     id: '3',
     title: 'Emergency Medical Support',
     description: 'Provide essential medical supplies to rural communities.',
-    image: '/medical-aid.jpg',
+    image: '/medical support.jpeg',
     badge: {
       text: 'Urgent cause',
       variant: 'urgent'
@@ -70,7 +70,7 @@ const topics: Topic[] = [
     id: '4',
     title: 'RwandaRize Impact Report',
     description: 'See how your donations have changed lives across Rwanda.',
-    image: '/impact-report.jpg',
+    image: '/impacts.jpg',
     badge: {
       text: 'Learn more',
       variant: 'learn'
